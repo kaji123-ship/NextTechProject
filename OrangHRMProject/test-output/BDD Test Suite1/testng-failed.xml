@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite1]">
+  <test name="Login and dashboard test(failed)">
+    <classes>
+      <class name="com.qa.testrunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.qa.testrunner.TestRunner -->
+    </classes>
+  </test> <!-- Login and dashboard test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite1] -->

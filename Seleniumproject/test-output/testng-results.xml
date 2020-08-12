@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17707" started-at="2020-05-25T10:56:35Z" finished-at="2020-05-25T10:56:52Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nexttech.Testrunner.TestRunnerNG$TestRunner@5e3a8624]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="17707" started-at="2020-05-25T10:56:35Z" finished-at="2020-05-25T10:56:52Z">
+      <class name="com.nexttech.Testrunner.TestRunnerNG$TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.nexttech.Testrunner.TestRunnerNG$TestRunner@5e3a8624]" name="setUpClass" is-config="true" duration-ms="203" started-at="2020-05-25T05:56:35Z" finished-at="2020-05-25T05:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nexttech.Testrunner.TestRunnerNG$TestRunner@5e3a8624]" name="feature" duration-ms="17414" started-at="2020-05-25T05:56:35Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-25T05:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer wants to open the browser and go to the single video page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.nexttech.Testrunner.TestRunnerNG$TestRunner@5e3a8624]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-05-25T05:56:52Z" finished-at="2020-05-25T05:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nexttech.Testrunner.TestRunnerNG$TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
